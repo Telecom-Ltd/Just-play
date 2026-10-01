@@ -3,92 +3,128 @@
 <div align="center">
 
 ![Just Play](https://img.shields.io/badge/Just-Play-1E90FF?style=for-the-badge&logo=github)
-![Language](https://img.shields.io/badge/Language-JavaScript%20%2F%20Config-FFA726?style=for-the-badge)
 ![Platform](https://img.shields.io/badge/Platform-QuantumultX%20%2F%20Surge-0D9488?style=for-the-badge)
+![Language](https://img.shields.io/badge/Language-JavaScript%20%2F%20Config-FFA726?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Community%20Toolkit-34D399?style=for-the-badge)
 
 </div>
 
-一个面向网络工具场景的整理仓库，收集并维护适用于 Quantumult X、Surge 等代理工具的规则与脚本，帮助你快速搭建更稳定、更实用的网络环境。
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=00D4FF&center=true&vCenter=true&width=500&lines=Network+Tooling+Hub;Config+Automation;Proxy+Rules+Scripts;Developer+Friendly+Toolkit" />
+</p>
 
-## 项目简介
+A lightweight network utility repository focused on configuration management, rule sets, and script enhancement for mainstream proxy tools such as Quantumult X and Surge.
 
-本仓库主要用于存放：
+This project is designed for users who want a more efficient way to manage network rules, optimize daily usage, and quickly adapt configurations across devices.
 
-- 规则配置文件
-- 代理工具脚本
-- 通用增强模块
-- 适配不同平台的配置模板
+---
 
-适合用于：
+## Overview
 
-- iOS / Android / macOS / Windows 设备的网络配置
-- 代理工具规则管理
-- 天气、AQI 等增强脚本
-- 规则调优与功能扩展
+This repository includes:
 
-## 仓库结构
+- Rule configuration files
+- Proxy tool setup templates
+- Script-based enhancements
+- Network-related utility modules
+- Configuration examples for practical use
 
-| 文件 | 说明 |
+It is suitable for:
+
+- iOS / Android / macOS / Windows environments
+- Proxy tool testing and optimization
+- Personal network rule customization
+- Learning and experimenting with configuration-based automation
+
+---
+
+## Repository Structure
+
+| File | Description |
 | --- | --- |
-| `QuantumultX.conf` | Quantumult X 规则配置文件 |
-| `Surge Pro.conf` | Surge Pro 配置文件 |
-| `iOS15_Weather_AQI_US.js` | iOS 15 天气与 AQI 脚本 |
-| `README.md` | 项目说明与使用说明 |
+| `QuantumultX.conf` | Quantumult X configuration file |
+| `Surge Pro.conf` | Surge Pro configuration file |
+| `iOS15_Weather_AQI_US.js` | Weather and AQI enhancement script |
+| `README.md` | Project overview and documentation |
 
-## 功能亮点
+---
 
-- 适配主流代理工具：Quantumult X、Surge
-- 提供开箱即用的配置文件
-- 支持脚本扩展与规则定制
-- 适合学习、测试和日常使用
-- 持续维护与更新内容
+## Key Features
 
-## 快速使用
+- Compatible with major proxy tools
+- Prebuilt configuration templates
+- Script-based functional enhancements
+- Easy to inspect and modify
+- Suitable for learning, debugging, and daily testing
+- Flexible for personal customization
 
-### 1. Quantumult X
+---
 
-1. 打开 Quantumult X
-2. 导入 `QuantumultX.conf`
-3. 根据自身网络环境进行必要调整
-4. 重新加载配置
+## Quick Start
 
-### 2. Surge
+### Quantumult X
 
-1. 打开 Surge
-2. 导入 `Surge Pro.conf`
-3. 检查规则是否符合当前设备需求
-4. 重新载入配置
+1. Open Quantumult X
+2. Import `QuantumultX.conf`
+3. Review the rules according to your device and network environment
+4. Reload the configuration
 
-### 3. 脚本
+### Surge
 
-- `iOS15_Weather_AQI_US.js` 可用于天气 / AQI 相关增强场景
-- 如需使用，请根据目标平台要求进行对应配置与调试
+1. Open Surge
+2. Import `Surge Pro.conf`
+3. Adjust the rules based on actual usage
+4. Reload the configuration
 
-## 说明
+### Scripts
 
-> 本仓库中的内容均来自互联网整理与收集，不保证可用性、稳定性或长期可维护性。
-> 使用前请根据你的实际网络环境、设备类型以及规则要求进行检查与适配。
+- `iOS15_Weather_AQI_US.js` is intended for weather / AQI enhancement scenarios
+- Modify and validate it according to your platform and environment
 
-## 常见建议
+---
 
-- 优先在测试环境中验证配置
-- 定期更新规则和脚本
-- 不同地区、网络环境、设备版本可能需要微调
-- 若有冲突，请根据具体代理工具文档排查原因
+## Notes
 
-## 许可证
+> All content in this repository is collected from public sources on the internet and may not be guaranteed to be stable, valid, or permanently usable.
+>
+> Please validate it carefully in your own environment before using it in production or daily operations.
 
-本仓库用于学习、研究和工具整合，具体使用许可以实际内容来源及相关协议为准。若你计划将其用于生产环境，请先自行核实合法性与适配性。
+---
 
-## 备注
+## Recommended Practices
 
-如果你想要进一步美化这个项目，可以继续扩展：
+- Test configuration changes in a safe environment first
+- Be cautious with rule conflicts across different devices
+- Keep updating scripts and rule files when needed
+- Check the compatibility of each tool version before deploying
 
-- 增加 Demo 截图
-- 增加技术栈标签
-- 增加常用使用流程图
-- 增加中英文双语说明
-- 增加“更新日志”与“配置建议”板块
+---
 
-欢迎交流和共同维护。
+## License & Disclaimer
+
+This repository is intended for learning, research, and practical configuration use. Please ensure compliance with relevant laws, platform rules, and usage terms before applying any content in real environments.
+
+---
+
+## Future Improvements
+
+This project can be further expanded with:
+
+- Configuration screenshots
+- Version changelog
+- More script modules
+- More structured documentation
+- Multi-language support
+- UI / dashboard style documentation
+
+---
+
+## Contact & Maintenance
+
+This project is maintained as a community-driven toolkit. Contributions, suggestions, and improvements are welcome.
+
+---
+
+<p align="center">
+  <sub>Built for network tinkering, rule management, and practical tooling.</sub>
+</p>
