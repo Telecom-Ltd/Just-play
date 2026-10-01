@@ -1,169 +1,142 @@
 <div align="center">
 
-# `JUST PLAY` // NETWORK TOOLKIT
+# Just Play
 
-**Configuration · Automation · Experimentation**
-
-[![Platform](https://img.shields.io/badge/Quantumult%20X-111827?style=flat-square&logo=apple&logoColor=white)](./QuantumultX.conf)
-[![Platform](https://img.shields.io/badge/Surge-111827?style=flat-square&logo=apple&logoColor=white)](./Surge%20Pro.conf)
-[![JavaScript](https://img.shields.io/badge/JavaScript-111827?style=flat-square&logo=javascript&logoColor=F7DF1E)](./iOS15_Weather_AQI_US.js)
-[![Status](https://img.shields.io/badge/STATUS-EXPERIMENTAL-22D3EE?style=flat-square)](https://github.com/Telecom-Ltd/Just-play)
+![GitHub](https://img.shields.io/badge/GitHub-Just%20Play-111827?style=for-the-badge&logo=github)
+![Language](https://img.shields.io/badge/Language-JavaScript%20%2F%20Config-FFD166?style=for-the-badge)
+![Tools](https://img.shields.io/badge/Tools-QuantumultX%20%2F%20Surge-06B6D4?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Experiment%20Hub-34D399?style=for-the-badge)
 
 </div>
 
-<div align="center">
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=21&pause=1000&color=7DD3FC&center=true&vCenter=true&width=600&lines=网络工具收集站;配置文件整理;脚本与规则实验;开发者工作流记录" />
+</p>
 
-> A compact workspace for network configurations, rule engineering, and utility scripts.
->
-> 一个用于网络配置、规则工程和脚本工具的轻量化工作台。
-
-</div>
+> 一个偏“技术博客 + 实用工具箱”风格的仓库，主要用于保存网络配置、规则脚本与常用技巧。
 
 ---
 
-## `01` / SYSTEM OVERVIEW
+## 项目简介
 
-`Just-play` is a developer-oriented collection of configuration files and scripts for experimenting with network tooling. The repository keeps commonly used resources in a compact, inspectable format so they can be reviewed, adapted, and tested across supported environments.
+`Just Play` 不是一个传统意义上的正式产品仓库，而更像一个技术实践与工具整理仓库。这里集中存放了与网络工具相关的配置文件、脚本逻辑和常用规则模板，主要面向：
 
-`Just-play` 是一个面向开发者的配置与脚本集合，用于实验和管理网络工具相关功能。该仓库将常用资源整理为简洁且易读的结构，便于在不同环境中查看、适配和测试。
+- 代理工具配置
+- 网络规则测试
+- 轻量脚本增强
+- 开发者工作流的实用整理
+
+如果你喜欢折腾网络环境、配置文件、脚本工具、规则调试，那么这个仓库会比较适合你。
+
+---
+
+## 仓库结构
 
 ```text
-┌──────────────────────────────────────────────────────────────┐
-│  JUST PLAY                                                   │
-│  ├─ CONFIG       Rule sets for network tooling              │
-│  ├─ SCRIPT       JavaScript utility experiments             │
-│  └─ WORKFLOW     Inspect → Adapt → Test → Iterate            │
-└──────────────────────────────────────────────────────────────┘
+Just-play/
+├── README.md
+├── QuantumultX.conf
+├── Surge Pro.conf
+├── iOS15_Weather_AQI_US.js
+└── 说明与实验记录
 ```
 
-## `02` / MODULES
+---
 
-| Module | File | Purpose |
-| :--- | :--- | :--- |
-| **Quantumult X** | [`QuantumultX.conf`](./QuantumultX.conf) | Configuration and rule collection |
-| **Surge** | [`Surge Pro.conf`](./Surge%20Pro.conf) | Surge-oriented configuration |
-| **Utility Script** | [`iOS15_Weather_AQI_US.js`](./iOS15_Weather_AQI_US.js) | Weather and AQI enhancement logic |
+## 主要内容
 
-| 模块 | 文件 | 用途 |
-| :--- | :--- | :--- |
-| **Quantumult X** | [`QuantumultX.conf`](./QuantumultX.conf) | 配置与规则集合 |
-| **Surge** | [`Surge Pro.conf`](./Surge%20Pro.conf) | Surge 配置文件 |
-| **脚本工具** | [`iOS15_Weather_AQI_US.js`](./iOS15_Weather_AQI_US.js) | 天气和 AQI 增强脚本 |
+### 1. Quantumult X 配置
 
-## `03` / CAPABILITIES
+[`QuantumultX.conf`](./QuantumultX.conf)
 
-```yaml
-configuration:
-  - readable rule files
-  - platform-oriented templates
-  - personal customization
+用于统一整理规则文件，方便快速导入和个性化调整。
 
-scripting:
-  - JavaScript utility logic
-  - lightweight automation experiments
-  - inspectable and adaptable source
+### 2. Surge 配置
 
-workflow:
-  - review before use
-  - test in an isolated environment
-  - iterate according to platform and network conditions
-```
+[`Surge Pro.conf`](./Surge%20Pro.conf)
 
-```yaml
-配置:
-  - 可读性强的规则文件
-  - 面向平台的模板
-  - 适合个性化调整
+适合使用 Surge 的用户做规则测试和环境适配。
 
-脚本:
-  - JavaScript 实用逻辑
-  - 轻量自动化实验
-  - 易于查看和适配
+### 3. JavaScript 脚本
 
-工作流:
-  - 使用前审查
-  - 在隔离环境中测试
-  - 根据平台与网络条件迭代优化
-```
+[`iOS15_Weather_AQI_US.js`](./iOS15_Weather_AQI_US.js)
 
-## `04` / QUICK DEPLOYMENT
+一个偏实用脚本的示例，用于天气与 AQI 相关增强逻辑。
+
+---
+
+## 使用方式
 
 ### Quantumult X
 
-1. Open Quantumult X.
-2. Import [`QuantumultX.conf`](./QuantumultX.conf).
-3. Review the rules and adjust them for your environment.
-4. Reload the configuration and verify the result.
+1. 打开 Quantumult X
+2. 导入 `QuantumultX.conf`
+3. 根据设备和网络环境调整规则
+4. 重新加载配置并测试效果
 
 ### Surge
 
-1. Open Surge.
-2. Import [`Surge Pro.conf`](./Surge%20Pro.conf).
-3. Validate the configuration before enabling it.
-4. Apply, test, and tune as required.
+1. 打开 Surge
+2. 导入 `Surge Pro.conf`
+3. 核对规则是否适合当前环境
+4. 应用并进行实际验证
 
-### Script
+### 脚本
 
-Open [`iOS15_Weather_AQI_US.js`](./iOS15_Weather_AQI_US.js), review its logic, and adapt it to the target platform and use case before execution.
-
-### Quantumult X / Surge 使用说明
-
-1. 打开 Quantumult X 或 Surge。
-2. 导入对应的配置文件。
-3. 根据当前设备和网络环境进行必要调整。
-4. 重新加载并检查实际效果。
-
-### 脚本说明
-
-打开 [`iOS15_Weather_AQI_US.js`](./iOS15_Weather_AQI_US.js)，先确认逻辑，再根据目标平台和使用场景进行适配和测试。
-
-## `05` / ENGINEERING NOTES
-
-- Treat every configuration as environment-dependent.
-- Validate rules and scripts before daily or production use.
-- Keep local backups before replacing an existing configuration.
-- Check compatibility after changing the proxy tool or operating system version.
-- Prefer small, reversible changes when debugging behavior.
-
-- 将每一份配置视为依赖具体环境的内容。
-- 在正式或长期使用前，务必验证规则与脚本。
-- 在替换已有配置前保留本地备份。
-- 更换代理工具或操作系统版本后，检查兼容性。
-- 调试时优先采用小规模、可回滚的修改方式。
-
-## `06` / DISCLAIMER
-
-> The contents of this repository are collected from public internet sources and are provided for learning, research, and personal experimentation. Availability, correctness, compatibility, and continued maintenance are not guaranteed.
->
-> 本仓库中的内容均整理自公开网络资源，仅用于学习、研究和个人实验。其可用性、正确性、兼容性及后续维护均不作保证。
-
-Please review applicable laws, platform terms, and the original content licenses before using or redistributing any file. The maintainer is not responsible for issues caused by unverified configurations or scripts.
-
-请在使用或分发任何文件前，检查相关法律、平台条款以及原始内容许可。维护者不对未经验证的配置或脚本导致的问题承担责任。
-
-## `07` / ROADMAP
-
-- [ ] Add version history and change notes
-- [ ] Improve per-platform documentation
-- [ ] Add configuration screenshots and examples
-- [ ] Organize reusable rule modules
-- [ ] Expand bilingual documentation
-
-- [ ] 增加版本历史与更新说明
-- [ ] 完善各平台文档说明
-- [ ] 增加配置截图和使用示例
-- [ ] 整理可复用的规则模块
-- [ ] 扩展中英文双语支持
+1. 打开 `iOS15_Weather_AQI_US.js`
+2. 理解脚本逻辑
+3. 按平台与场景进行适配
+4. 测试并观察实际效果
 
 ---
 
-<div align="center">
+## 技术风格
 
-`BUILD SMALL. TEST CAREFULLY. ITERATE CONSTANTLY.`
+这个仓库更偏以下几种方向：
 
-`构建简洁，谨慎测试，不断迭代。`
+- 实用主义：优先可用性和功能性
+- 轻量化：少而精，结构清晰
+- 技术博客风：适合长期维护记录笔记
+- 开发者工具箱：适合持续迭代和调试
 
-<sub>Just Play · A practical toolkit for network tinkering and developer workflows.</sub>
-<sub>Just Play · 面向网络调试与开发工作流的实用工具包。</sub>
+---
 
-</div>
+## 说明与注意事项
+
+> 本仓库中的内容来自公开网络资源整理，并不保证长期有效性、稳定性或兼容性。
+> 请在真正使用前进行必要的验证与适配。
+
+使用时建议：
+
+- 优先在测试环境验证
+- 备份当前配置文件
+- 不同平台和设备可能需要微调
+- 对规则冲突保持警惕
+
+---
+
+## 学习与迭代方向
+
+后续可以继续扩展的内容：
+
+- 增加更详细的中文说明
+- 整理常见规则模块
+- 增加版本更新日志
+- 进一步优化脚本与配置结构
+- 增加更多实用场景示例
+
+---
+
+## 免责声明
+
+本仓库用于学习、研究和技术实践，并不保证任何内容适用于您的设备、网络环境或生产场景。使用前请自行评估风险，并遵守相关平台规则与法律要求。
+
+---
+
+## 结尾
+
+如果你也喜欢折腾网络规则、脚本工具和配置文件，这个仓库会是一个很适合长期维护的小型技术实验室。
+
+<p align="center">
+  <sub>Just Play · 记录技术实验，沉淀实用配置。</sub>
+</p>
