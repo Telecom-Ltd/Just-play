@@ -3,60 +3,97 @@
 <div align="center">
 
 ![Just Play](https://img.shields.io/badge/Just-Play-1E90FF?style=for-the-badge&logo=github)
-![Platform](https://img.shields.io/badge/Platform-QuantumultX%20%2F%20Surge-0D9488?style=for-the-badge)
-![Language](https://img.shields.io/badge/Language-JavaScript%20%2F%20Config-FFA726?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Community%20Toolkit-34D399?style=for-the-badge)
+![Profile](https://img.shields.io/badge/Profile-Developer%20Toolkit-7C3AED?style=for-the-badge)
+![Platform](https://img.shields.io/badge/Platform-QuantumultX%20%2F%20Surge-10B981?style=for-the-badge)
+![Language](https://img.shields.io/badge/Language-JavaScript%20%2F%20Config-F59E0B?style=for-the-badge)
 
 </div>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=00D4FF&center=true&vCenter=true&width=500&lines=Network+Tooling+Hub;Config+Automation;Proxy+Rules+Scripts;Developer+Friendly+Toolkit" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=22&pause=900&color=7DD3FC&center=true&vCenter=true&width=600&lines=Build+for+network+automation;Config-driven+workflow;Developer+tooling+and+utilities;Open+source+experiment+hub" />
 </p>
 
-A lightweight network utility repository focused on configuration management, rule sets, and script enhancement for mainstream proxy tools such as Quantumult X and Surge.
-
-This project is designed for users who want a more efficient way to manage network rules, optimize daily usage, and quickly adapt configurations across devices.
+<p align="center">
+  <b>Network tools, rule configs, script experiments, and developer-centric utilities.</b>
+</p>
 
 ---
 
-## Overview
+## About Me
 
-This repository includes:
+I am a developer who enjoys building practical tools, testing configurations, and customizing workflows for daily technical use.
 
-- Rule configuration files
-- Proxy tool setup templates
-- Script-based enhancements
-- Network-related utility modules
-- Configuration examples for practical use
+This repository is a personal collection of:
 
-It is suitable for:
+- network configuration samples
+- rule-based automation patterns
+- script utilities
+- practical experiments for tools like Quantumult X and Surge
 
-- iOS / Android / macOS / Windows environments
-- Proxy tool testing and optimization
-- Personal network rule customization
-- Learning and experimenting with configuration-based automation
+The focus is not only on functionality, but also on clean, reusable, and easy-to-understand technical setups.
+
+---
+
+## Tech Stack
+
+<div align="center">
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Shell](https://img.shields.io/badge/Shell-Bash-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![Config](https://img.shields.io/badge/Config-Proxy%20Rules-4F46E5?style=for-the-badge)
+![Network](https://img.shields.io/badge/Network-Tools-06B6D4?style=for-the-badge)
+
+</div>
+
+- JavaScript-based enhancement scripts
+- Rule-driven configuration files
+- Network utility and workflow optimization
+- Lightweight developer tooling mindset
+
+---
+
+## Featured Projects
+
+### 1. Quantumult X Configuration
+
+`QuantumultX.conf` is the main resource for custom network rule setups.
+
+It focuses on:
+
+- rule-based network control
+- environment-specific tuning
+- flexibility for personal or test usage
+
+### 2. Surge Configuration
+
+`Surge Pro.conf` provides an alternative configuration pathway for users who work with Surge-based tooling.
+
+### 3. Weather & AQI Script
+
+`iOS15_Weather_AQI_US.js` showcases script-based enhancement and practical utility logic for environmental data scenarios.
 
 ---
 
 ## Repository Structure
 
-| File | Description |
-| --- | --- |
-| `QuantumultX.conf` | Quantumult X configuration file |
-| `Surge Pro.conf` | Surge Pro configuration file |
-| `iOS15_Weather_AQI_US.js` | Weather and AQI enhancement script |
-| `README.md` | Project overview and documentation |
+```text
+Just-play/
+├── README.md
+├── QuantumultX.conf
+├── Surge Pro.conf
+├── iOS15_Weather_AQI_US.js
+└── Notes / Config experiments
+```
 
 ---
 
-## Key Features
+## Project Highlights
 
-- Compatible with major proxy tools
-- Prebuilt configuration templates
-- Script-based functional enhancements
-- Easy to inspect and modify
-- Suitable for learning, debugging, and daily testing
-- Flexible for personal customization
+- Practical and developer-friendly structure
+- Clear separation between config files and scripts
+- Easy to extend or adapt for personal use
+- Suitable for learning, testing, and workflow customization
+- Built around real-world utility rather than just demo code
 
 ---
 
@@ -66,65 +103,56 @@ It is suitable for:
 
 1. Open Quantumult X
 2. Import `QuantumultX.conf`
-3. Review the rules according to your device and network environment
+3. Adjust rules according to your device and environment
 4. Reload the configuration
 
 ### Surge
 
 1. Open Surge
 2. Import `Surge Pro.conf`
-3. Adjust the rules based on actual usage
-4. Reload the configuration
+3. Validate the configuration against actual needs
+4. Apply and test
 
-### Scripts
+### JavaScript Script
 
-- `iOS15_Weather_AQI_US.js` is intended for weather / AQI enhancement scenarios
-- Modify and validate it according to your platform and environment
+- Use `iOS15_Weather_AQI_US.js` when relevant to your scenario
+- Review the script logic and adapt it as needed
 
 ---
 
 ## Notes
 
-> All content in this repository is collected from public sources on the internet and may not be guaranteed to be stable, valid, or permanently usable.
->
-> Please validate it carefully in your own environment before using it in production or daily operations.
+> This repository is a personal technical collection and learning-oriented workspace.
+> Most of the content is collected from public sources and may require validation before practical use.
 
 ---
 
-## Recommended Practices
+## Developer Philosophy
 
-- Test configuration changes in a safe environment first
-- Be cautious with rule conflicts across different devices
-- Keep updating scripts and rule files when needed
-- Check the compatibility of each tool version before deploying
+I prefer tools that are:
 
----
+- small but useful
+- easy to read and modify
+- practical in real-world workflows
+- open to iteration and personalization
 
-## License & Disclaimer
-
-This repository is intended for learning, research, and practical configuration use. Please ensure compliance with relevant laws, platform rules, and usage terms before applying any content in real environments.
+This project reflects that mindset: lightweight, useful, and built for experimentation.
 
 ---
 
-## Future Improvements
+## Contribution
 
-This project can be further expanded with:
-
-- Configuration screenshots
-- Version changelog
-- More script modules
-- More structured documentation
-- Multi-language support
-- UI / dashboard style documentation
+If you have ideas for improvements, new utility modules, or better rule organization, feel free to contribute or suggest changes.
 
 ---
 
-## Contact & Maintenance
+## License
 
-This project is maintained as a community-driven toolkit. Contributions, suggestions, and improvements are welcome.
+This repository is intended for education, experimentation, and personal technical exploration.
+Please check the legal and platform-specific requirements before using any part of it in business or production environments.
 
 ---
 
 <p align="center">
-  <sub>Built for network tinkering, rule management, and practical tooling.</sub>
+  <sub>Made for tinkering, testing, and building useful developer workflows.</sub>
 </p>
